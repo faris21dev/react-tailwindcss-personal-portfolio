@@ -26,7 +26,7 @@ function Hero() {
     return (
         <section className='relative min-h-screen flex items-center overflow-hidden'>
             <div className='absolute inset-0'>
-                <img src="/public/hero-bg.jpg" className='w-full h-full opacity-40 object-cover'/>
+                <img src="/hero-bg.jpg" className='w-full h-full opacity-40 object-cover'/>
             </div>
             <div className='absolute inset-0 bg-gradient-to-b from-background/20 via-background/80 to-background'/>
             <div className='absolute inset-0 overflow-hidden pointer-events-none'>
@@ -68,7 +68,7 @@ function Hero() {
                             <Button size='lg' onClick={() => document.getElementById('contact').scrollIntoView({behavior: 'smooth'})}>
                                 Contact Me <ArrowRight className='w-5 h-5'/>
                             </Button>
-                            <AnimatedBorderButton handleClick={() => window.open('/public/FarisMohammadCV.pdf')}>
+                            <AnimatedBorderButton handleClick={() => window.open('/FarisMohammadCV.pdf')}>
                                 <Download className='w-5 h-5'/>
                                 Download CV
                             </AnimatedBorderButton>
@@ -92,7 +92,7 @@ function Hero() {
                         <div className='relative max-w-md mx-auto'>
                             <div className='absolute inset-0 rounded-3xl bg-gradient-to-br from-primary/30 via-transparent to-primary/10 blur-2xl animate-pulse'/>
                             <div className='relative glass rounded-3xl p-2 glow-border'>
-                                <img src="/public/Faris01.png" alt="Faris Grouph" className='w-full aspect-[4/5] object-cover rounded-2xl'/>
+                                <img src="/Faris01.png" alt="Faris Grouph" className='w-full aspect-[4/5] object-cover rounded-2xl'/>
 
 
                                 {/* Floating Badge */}

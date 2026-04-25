@@ -7,7 +7,7 @@ const projects = [
     {
         title: 'LinkedIn Clone',
         description: 'A full-stack social platform inspired by LinkedIn, featuring user authentication, real-time posts, and interactive feeds. focusing on performance and clean UI',
-        image: '../../public/projects/LinkedIn-Clone.png',
+        image: '../../projects/LinkedIn-Clone.png',
         tags: ['Firebase', 'ReactJS', 'Redux Toolkit'],
         link: 'https://linkedin-clone-672fb.web.app/',
         github: 'https://github.com/faris21dev/linkedin-clone'
@@ -15,7 +15,7 @@ const projects = [
     {
         title: 'Gmail Clone',
         description: 'A full-stack email client inspired by Gmail, allowing users to send, receive, and manage emails through a clean and responsive interface. Built with a focus on performance and intuitive user experience',
-        image: '../../public/projects/Gmail-Clone.png',
+        image: '../../projects/Gmail-Clone.png',
         tags: ['Firebase', 'ReactJS', 'Redux Toolkit'],
         link: 'https://clone-e49c1.web.app/',
         github: 'https://github.com/faris21dev/gmail-clone'
