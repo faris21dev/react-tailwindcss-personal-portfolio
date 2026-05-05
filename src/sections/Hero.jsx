@@ -68,7 +68,7 @@ function Hero() {
                             <Button size='lg' onClick={() => document.getElementById('contact').scrollIntoView({behavior: 'smooth'})}>
                                 Contact Me <ArrowRight className='w-5 h-5'/>
                             </Button>
-                            <AnimatedBorderButton handleClick={() => window.open('/FarisMohammadCV.pdf')}>
+                            <AnimatedBorderButton handleClick={() => window.open('/FarisCV.pdf', '_blank')}>
                                 <Download className='w-5 h-5'/>
                                 Download CV
                             </AnimatedBorderButton>
